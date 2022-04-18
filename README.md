@@ -14,6 +14,7 @@
 - [gosec](https://github.com/securego/gosec) installed globally (simply run `gosec`)
 - [staticcheck](https://github.com/dominikh/go-tools) installed globally (simply run `staticcheck`)
 - Root of your project inside the vm will be the default: `/vagrant`
+- Sane default additions such as make, virtualbox-guest-additions and gcc
 
 ## Considerations
 

@@ -6,7 +6,7 @@
 
 ## What to expect (defaults)
 
-- A virtualbox based vagrant virtual machine
+- An Ubuntu (lts), Virtualbox based, Vagrant virtual machine
 - 2 CPUS
 - 2GB RAM
 - Correct version of go installed based on the contents of your projects go.mod file

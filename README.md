@@ -1,6 +1,6 @@
 # golang-vagrant-dev-env
 
-## A solid
+## A simple and solid golang dev environment to build on as your project grows.
 
 `vagrant up`
 

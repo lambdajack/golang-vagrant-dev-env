@@ -33,12 +33,18 @@ Vagrant.configure("2") do |config|
     go install github.com/securego/gosec/v2/cmd/gosec@latest
     go install honnef.co/go/tools/cmd/staticcheck@latest
     
+    ###############################
+    # Customise your dev env here
+    
+
+    ###############################
+
     # Install project dependancies
     cd /vagrant && go mod download
 
     # Print out ip address for vm
     ip addr | grep -v "inet6" | grep -v "127.0.0.1" | grep "inet"
-
+    
     # Happy hacking
     echo "lambdajack wishes you happy hacking!"
   SHELL

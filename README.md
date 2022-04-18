@@ -32,3 +32,7 @@ It seams that there are not many up to date golang dev environments on the inter
 If there are any updates you would like to share, or default includes (such as new tools for example), please don't hesitate to open up an issue/pull request.
 
 It's better to air on the side of open and general environment defaults (which can be easily changed and customised by the end user as necessary).
+
+## License
+
+[MIT](LICENSE)
